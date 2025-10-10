@@ -70,7 +70,7 @@ A modern, production-ready template for building React applications with TypeScr
 
 1. Clone or download this template:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/73gon/template-react.git
 cd template
 ```
 
