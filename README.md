@@ -23,12 +23,14 @@ A modern, production-ready template for building React applications with TypeScr
 ## 📦 Tech Stack
 
 ### Core
+
 - React 19.1.1
 - TypeScript 5.9.3
 - Vite 7.1.7
 - pnpm (package manager)
 
 ### UI & Styling
+
 - Tailwind CSS 4.1.14
 - Radix UI (Dropdown, Select, Tooltip)
 - shadcn/ui components
@@ -37,26 +39,31 @@ A modern, production-ready template for building React applications with TypeScr
 - Lucide React 0.545.0
 
 ### Routing & State
+
 - TanStack Router 1.132.47
 - Zustand 5.0.8
 
 ### Forms & Validation
+
 - React Hook Form 7.64.0
 - Zod 4.1.12
 - @hookform/resolvers 5.2.2
 
 ### Internationalization
+
 - i18next 25.5.3
 - react-i18next 16.0.0
 - i18next-browser-languagedetector 8.2.0
 
 ### HTTP & Utils
+
 - Axios 1.12.2
 - clsx 2.1.1
 - tailwind-merge 3.3.1
 - class-variance-authority 0.7.1
 
 ### Notifications
+
 - Sonner 2.0.7
 
 ## 🛠️ Getting Started
@@ -69,22 +76,26 @@ A modern, production-ready template for building React applications with TypeScr
 ### Installation
 
 1. Clone or download this template:
+
 ```bash
 git clone https://github.com/73gon/template-react.git
 cd template
 ```
 
 2. Install dependencies:
+
 ```bash
 pnpm install
 ```
 
 3. Install the TanStack Router plugin:
+
 ```bash
 pnpm add -D @tanstack/router-plugin
 ```
 
 4. Start the development server:
+
 ```bash
 pnpm dev
 ```
@@ -147,6 +158,7 @@ All components are fully typed, accessible, and customizable.
 ## 🌍 Internationalization
 
 The template supports multiple languages out of the box:
+
 - English (en)
 - German (de)
 
@@ -155,6 +167,7 @@ Add more languages by creating new JSON files in `src/languages/` and importing 
 ## 🌙 Dark Mode
 
 Dark mode is implemented using `next-themes` and supports:
+
 - Light theme
 - Dark theme
 - System preference
@@ -195,15 +208,19 @@ const { register, handleSubmit } = useForm({
 ## 🔧 Configuration
 
 ### Tailwind CSS
+
 Configure Tailwind in `tailwind.config.js` or through the `@tailwindcss/vite` plugin.
 
 ### Shadcn/ui
+
 Component configuration is in `components.json`. Add new components with:
+
 ```bash
 npx shadcn@latest add [component-name]
 ```
 
 ### ESLint
+
 ESLint rules are configured in `eslint.config.js`.
 
 ## 📦 Building for Production
@@ -217,6 +234,7 @@ The build output will be in the `dist` directory, ready for deployment.
 ## 🚀 Deployment
 
 This template can be deployed to any static hosting service:
+
 - Vercel
 - Netlify
 - GitHub Pages
@@ -226,6 +244,7 @@ This template can be deployed to any static hosting service:
 ## 🤝 Contributing
 
 Feel free to customize this template for your needs. Some suggestions:
+
 - Add more UI components
 - Implement authentication
 - Add API integration examples
@@ -240,6 +259,7 @@ This template is free to use for personal and commercial projects.
 ## 🙏 Acknowledgments
 
 Built with amazing open-source projects:
+
 - [React](https://react.dev/)
 - [Vite](https://vite.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)

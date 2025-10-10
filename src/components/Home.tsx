@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { ModeToggle } from '@/components/darkmode';
+import { ModeToggle } from '@/components/ui/darkmode';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
