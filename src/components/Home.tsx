@@ -1,13 +1,14 @@
+import { Plus, Save, Trash2, Edit, Mail, Info, Package, Code, Palette, Route as RouteIcon, Database, FileCheck, Globe, Wrench, Sparkles } from 'lucide-react';
+import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { ModeToggle } from '@/components/ui/darkmode';
+
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
-import { toast } from 'sonner';
-import { Plus, Save, Trash2, Edit, Mail, Info, Package, Code, Palette, Route as RouteIcon, Database, FileCheck, Globe, Wrench, Sparkles } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { ModeToggle } from '@/components/ui/darkmode';
+import { toast } from '@/components/ui/toast';
 
 export function Home() {
   const { t, i18n } = useTranslation();
@@ -232,7 +233,7 @@ export function Home() {
                 <h3 className='text-xl font-semibold mb-4'>{t('components.toast.title')}</h3>
                 <Button
                   onClick={() =>
-                    toast(t('components.toast.message'), {
+                    toast.info(t('components.toast.message'), {
                       description: t('components.toast.description'),
                     })
                   }
