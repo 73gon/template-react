@@ -1,5 +1,17 @@
 {
-  "title": "React + Vite Template",
+  "navbar": {
+    "title": "Template"
+  },
+  "language": {
+    "select": "Select Language",
+    "german": "German",
+    "english": "English"
+  },
+  "footer": {
+    "copyright": "Copyright © 2025. All rights reserved.",
+    "disclaimer": "This is a template project."
+  },
+  "title": "React + Vite + TanStack Start Template",
   "subtitle": "A comprehensive starter template with modern tooling",
   "description": "This is a production-ready template built with modern web technologies. It includes routing, theming, internationalization, and a comprehensive UI component library. Perfect for kickstarting your next project!",
   "darkMode": {

@@ -67,18 +67,6 @@ export function Home() {
             <h1 className='text-4xl font-bold mb-2'>{t('title')}</h1>
             <p className='text-muted-foreground'>{t('subtitle')}</p>
           </div>
-          <div className='flex gap-4 items-center'>
-            <Select value={i18n.language} onValueChange={changeLanguage}>
-              <SelectTrigger>
-                <SelectValue />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value='en'>English</SelectItem>
-                <SelectItem value='de'>Deutsch</SelectItem>
-              </SelectContent>
-            </Select>
-            <ModeToggle />
-          </div>
         </motion.div>
 
         {/* Description */}

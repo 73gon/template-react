@@ -1,7 +1,15 @@
-import { createFileRoute } from '@tanstack/react-router';
+import { createFileRoute } from '@tanstack/react-router'
 
-import { Home } from '@/components/Home';
+import { Home } from '@/pages/Home'
 
 export const Route = createFileRoute('/')({
-  component: Home,
-});
+  component: HomePage,
+})
+
+function HomePage() {
+  return (
+    <div className="w-full">
+      <Home />
+    </div>
+  )
+}

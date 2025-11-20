@@ -1,5 +1,17 @@
 {
-  "title": "React + Vite Vorlage",
+  "navbar": {
+    "title": "Template"
+  },
+  "language": {
+    "select": "Sprache auswählen",
+    "german": "Deutsch",
+    "english": "English"
+  },
+  "footer": {
+    "copyright": "Urheberrecht © 2025. Alle Rechte vorbehalten.",
+    "disclaimer": "Dies ist ein Vorlagenprojekt."
+  },
+  "title": "React + Vite + TanStack Start Vorlage",
   "subtitle": "Eine umfassende Starter-Vorlage mit modernen Tools",
   "description": "Dies ist eine produktionsreife Vorlage, die mit modernen Webtechnologien erstellt wurde. Sie umfasst Routing, Theming, Internationalisierung und eine umfassende UI-Komponentenbibliothek. Perfekt für den Start Ihres nächsten Projekts!",
   "darkMode": {
